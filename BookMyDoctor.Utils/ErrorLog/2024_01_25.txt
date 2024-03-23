@@ -1,0 +1,18 @@
+------------------------------------------------------------------------------------
+Time - 09:07:01 PM
+Error - 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at BookMyDoctor.Web.FileVersioningHandler.ProcessRequest(HttpContext context) in D:\BookMyDoctor\BookMyDoctor\BookMyDoctor.Web\FileVersioningHandler.ashx.cs:line 45
+
+------------------------------------------------------------------------------------
+Time - 09:07:05 PM
+Error - 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at BookMyDoctor.Web.FileVersioningHandler.ProcessRequest(HttpContext context) in D:\BookMyDoctor\BookMyDoctor\BookMyDoctor.Web\FileVersioningHandler.ashx.cs:line 45
+
